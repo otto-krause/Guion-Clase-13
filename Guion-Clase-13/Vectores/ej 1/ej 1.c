@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
 
-	int v[6],acu=0,z;
+	int v[6],acu=0,z;//De 0 a 4 son 5 valores.
 
 	ing(v);
 
-	for(z=0;z<5;z++){
+	for(z=0;z<5;z++)
+	{
 
 	printf("\n La resistencia %d es : %d ",z,v[z]);
 	acu=acu+v[z];
@@ -18,7 +20,8 @@ int main() {
 	}
 
 
-	int ing(int a[]){
+	int ing(int *a)//Recibe un puntero.
+	{
 
 	int i;
 

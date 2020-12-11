@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-	int main() {
+	int main() 
+	{
 
 	float v[5];
 	ing(v);
@@ -11,7 +12,8 @@
 	}
 
 
-	void ing(float numr[]){
+	void ing(float numr[])//Idem ejercicio anterior.
+	{
 
 	int i;
 
