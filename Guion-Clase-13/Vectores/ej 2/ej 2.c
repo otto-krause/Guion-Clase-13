@@ -12,7 +12,7 @@
 	}
 
 
-	void ing(float numr[])//Idem ejercicio anterior.
+	void ing(float *numr)
 	{
 
 	int i;
