@@ -4,7 +4,7 @@
 int main() 
 {
 
-	int v[6],acu=0,z;//De 0 a 4 son 5 valores.
+	int v[5],acu=0,z;//De 0 a 4 son 5 valores.
 
 	ing(v);
 
